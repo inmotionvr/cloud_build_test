@@ -15,7 +15,7 @@ fi
     -batchmode \
     -projectPath $PROJECT_PATH \
     -logfile - \
-    -buildTarget android \
+    -buildTarget $BUILD_PLATFORM \
     -executeMethod CloudBuildTest.CommandLineBuild.SetEnvironment
 
 exit $?
